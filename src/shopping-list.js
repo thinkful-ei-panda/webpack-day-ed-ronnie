@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import store from './store.js';
 import item from './item.js';
 
@@ -10,6 +11,7 @@ const generateItemElement = function (item) {
       </form>
     `;
   }
+
 
   return `
     <li class="js-item-element" data-item-id="${item.id}">
